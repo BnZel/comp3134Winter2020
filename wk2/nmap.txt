@@ -1,0 +1,92 @@
+nmap reddit.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:25 UTC
+Nmap scan report for reddit.com (151.101.193.140)
+Host is up (0.00063s latency).
+Other addresses for reddit.com (not scanned): 151.101.65.140 151.101.1.140 151.101.129.140
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 16.96 seconds
+
+# ================================================================
+
+nmap -p 80 ratemyprofessor.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:28 UTC
+Nmap scan report for ratemyprofessor.com (3.224.156.198)
+Host is up (0.035s latency).
+Other addresses for ratemyprofessor.com (not scanned): 52.73.177.253 100.24.160.53
+rDNS record for 3.224.156.198: ec2-3-224-156-198.compute-1.amazonaws.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+
+# ================================================================
+
+nmap -p 80-443 yahoo.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:29 UTC
+Nmap scan report for yahoo.com (98.138.219.231)
+Host is up (0.028s latency).
+Other addresses for yahoo.com (not scanned): 98.137.246.7 72.30.35.10 98.138.219.232 72.30.35.9 98.137.246.8 2001:4998:44:41d::3 2001:4998:c:1023::5 2001:4998:58:1836::10 2001:4998:c:1023::4 2001:4998:58:1836::11 2001:4998:44:41d::4
+rDNS record for 98.138.219.231: media-router-fp1.prod1.media.vip.ne1.yahoo.com
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.71 seconds
+
+# ==================================================================
+
+nmap -p 80-99 yahoo.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:46 UTC
+Nmap scan report for yahoo.com (72.30.35.10)
+Host is up (0.0038s latency).
+Other addresses for yahoo.com (not scanned): 98.137.246.7 72.30.35.9 98.138.219.232 98.138.219.231 98.137.246.8 2001:4998:58:1836::10 2001:4998:58:1836::11 2001:4998:44:41d::3 2001:4998:44:41d::4 2001:4998:c:1023::4 2001:4998:c:1023::5
+rDNS record for 72.30.35.10: media-router-fp2.prod1.media.vip.bf1.yahoo.com
+
+PORT   STATE    SERVICE
+80/tcp open     http
+81/tcp filtered hosts2-ns
+82/tcp filtered xfer
+83/tcp filtered mit-ml-dev
+84/tcp filtered ctf
+85/tcp filtered mit-ml-dev
+86/tcp filtered mfcobol
+87/tcp filtered priv-term-l
+88/tcp filtered kerberos-sec
+89/tcp filtered su-mit-tg
+90/tcp filtered dnsix
+91/tcp filtered mit-dov
+92/tcp filtered npp
+93/tcp filtered dcp
+94/tcp filtered objcall
+95/tcp filtered supdup
+96/tcp filtered dixie
+97/tcp filtered swift-rvf
+98/tcp filtered linuxconf
+99/tcp filtered metagram
+
+Nmap done: 1 IP address (1 host up) scanned in 1.63 seconds
+
+# ==================================================================
+
+nmap -F bing.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:40 UTC
+Nmap scan report for bing.com (13.107.21.200)
+Host is up (0.011s latency).
+Other addresses for bing.com (not scanned): 204.79.197.200 2620:1ec:c11::200
+Not shown: 97 filtered ports
+PORT    STATE  SERVICE
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+

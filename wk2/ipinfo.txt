@@ -1,0 +1,15 @@
+# list 5 distinct domains (don't include previous selections)
+-reddit.com
+IP Address: 151.101.65.140
+
+-ratemyprofessor.com
+IP Address: 52.73.177.253
+
+-youtube.com
+IP Address: 172.217.10.142
+
+-kaggle.com
+IP Address: 35.244.233.98
+
+-https://ocw.mit.edu (MIT Opencourseware)
+IP Address: 23.217.165.221

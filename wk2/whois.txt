@@ -1,0 +1,1430 @@
+# list all 5 domains (not sub-domains)
+
+Domain Information
+
+    Name: google.com
+    Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+
+    serverDeleteProhibited
+
+    serverTransferProhibited
+
+    serverUpdateProhibited
+    Nameservers:
+
+    ns1.google.com
+
+    ns2.google.com
+
+    ns3.google.com
+
+    ns4.google.com
+
+Dates
+
+    Registry Expiration: 2028-09-14 04:00:00 UTC
+    Registrar Expiration: 2028-09-13 07:00:00 UTC
+    Created: 1997-09-15 04:00:00 UTC
+
+Contact Information
+Registrant:
+
+    Organization: Google LLC
+    Mailing Address: CA, US 
+
+Technical:
+
+    Mailing Address: CA, US 
+
+Administrative:
+
+    Mailing Address: CA, US 
+
+REDACTED FOR PRIVACY: Some of the data in this object has been removed.
+Registrar Information
+
+    Name: MarkMonitor Inc.
+    IANA ID: 292
+    Abuse Contact Email: abusecomplaints@markmonitor.com
+    Abuse Contact Phone: +1.2083895770 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/google.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.markmonitor.com/rdap/domain/GOOGLE.COM
+    Last updated from Registrar RDAP DB: 2020-01-15 12:34:29 UTC
+
+Raw Registry RDAP Response
+
+Raw Registrar RDAP Response
+
+{
+   "ldhName": "google.com",
+   "objectClassName": "domain",
+   "handle": "2138514_DOMAIN_COM-VRSN",
+   "events": [
+      {
+         "eventAction": "expiration",
+         "eventDate": "2028-09-13T07:00:00.000+0000"
+      },
+      {
+         "eventAction": "registration",
+         "eventDate": "1997-09-15T07:00:00.000+0000"
+      },
+      {
+         "eventAction": "last update",
+         "eventDate": "2019-09-09T15:39:04.000+0000"
+      },
+      {
+         "eventAction": "last update of RDAP database",
+         "eventDate": "2020-01-15T17:34:29.000+0000"
+      }
+   ],
+   "status": [
+      "client update prohibited",
+      "client transfer prohibited",
+      "client delete prohibited",
+      "server update prohibited",
+      "server transfer prohibited",
+      "server delete prohibited"
+   ],
+   "nameservers": [
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "ns1.google.com",
+         "status": [
+            "active"
+         ],
+         "events": [
+            {
+               "eventAction": "last changed",
+               "eventDate": "2008-06-08T04:46:18.000+0000"
+            }
+         ]
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "ns2.google.com",
+         "status": [
+            "active"
+         ],
+         "events": [
+            {
+               "eventAction": "last changed",
+               "eventDate": "2008-06-08T04:46:18.000+0000"
+            }
+         ]
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "ns3.google.com",
+         "status": [
+            "active"
+         ],
+         "events": [
+            {
+               "eventAction": "last changed",
+               "eventDate": "2008-06-08T04:46:18.000+0000"
+            }
+         ]
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "ns4.google.com",
+         "status": [
+            "active"
+         ],
+         "events": [
+            {
+               "eventAction": "last changed",
+               "eventDate": "2008-06-08T04:46:19.000+0000"
+            }
+         ]
+      }
+   ],
+   "secureDNS": {
+      "delegationSigned": false
+   },
+   "entities": [
+      {
+         "objectClassName": "entity",
+         "events": [
+            {
+               "eventAction": "last update",
+               "eventDate": "2017-12-11T15:40:13.000+0000"
+            }
+         ],
+         "roles": [
+            "administrative"
+         ],
+         "remarks": [
+            {
+               "title": "REDACTED FOR PRIVACY",
+               "type": "Object truncated due to authorization",
+               "description": [
+                  "Some of the data in this object has been removed."
+               ]
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "adr",
+                  {},
+                  "text",
+                  [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "CA",
+                     "",
+                     "US"
+                  ]
+               ]
+            ]
+         ],
+         "contact_URI": "https://domains.markmonitor.com/whois/"
+      },
+      {
+         "objectClassName": "entity",
+         "events": [
+            {
+               "eventAction": "last update",
+               "eventDate": "2017-12-11T15:40:13.000+0000"
+            }
+         ],
+         "roles": [
+            "registrant"
+         ],
+         "remarks": [
+            {
+               "title": "REDACTED FOR PRIVACY",
+               "type": "Object truncated due to authorization",
+               "description": [
+                  "Some of the data in this object has been removed."
+               ]
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "org",
+                  {
+                     "type": "work"
+                  },
+                  "text",
+                  "Google LLC"
+               ],
+               [
+                  "adr",
+                  {},
+                  "text",
+                  [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "CA",
+                     "",
+                     "US"
+                  ]
+               ]
+            ]
+         ],
+         "contact_URI": "https://domains.markmonitor.com/whois/"
+      },
+      {
+         "objectClassName": "entity",
+         "events": [
+            {
+               "eventAction": "last update",
+               "eventDate": "2017-12-11T15:40:13.000+0000"
+            }
+         ],
+         "roles": [
+            "technical"
+         ],
+         "remarks": [
+            {
+               "title": "REDACTED FOR PRIVACY",
+               "type": "Object truncated due to authorization",
+               "description": [
+                  "Some of the data in this object has been removed."
+               ]
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "adr",
+                  {},
+                  "text",
+                  [
+                     "",
+                     "",
+                     "",
+                     "",
+                     "CA",
+                     "",
+                     "US"
+                  ]
+               ]
+            ]
+         ],
+         "contact_URI": "https://domains.markmonitor.com/whois/"
+      },
+      {
+         "objectClassName": "entity",
+         "handle": "292",
+         "events": [
+            {
+               "eventAction": "registrar expiration",
+               "eventDate": "2020-09-14T04:00:00.000+0000"
+            }
+         ],
+         "roles": [
+            "registrar"
+         ],
+         "entities": [
+            {
+               "objectClassName": "entity",
+               "vcardArray": [
+                  "vcard",
+                  [
+                     [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                     ],
+                     [
+                        "email",
+                        {
+                           "type": "work"
+                        },
+                        "text",
+                        "abusecomplaints@markmonitor.com"
+                     ],
+                     [
+                        "tel",
+                        {
+                           "type": "voice"
+                        },
+                        "text",
+                        "+1.2083895770"
+                     ]
+                  ]
+               ],
+               "roles": [
+                  "abuse"
+               ]
+            }
+         ],
+         "publicIds": [
+            {
+               "type": "IANA Registrar ID",
+               "identifier": "292"
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "org",
+                  {
+                     "type": "work"
+                  },
+                  "text",
+                  "MarkMonitor Inc."
+               ],
+               [
+                  "adr",
+                  {},
+                  "text",
+                  [
+                     "",
+                     "",
+                     "3540 E Longwing Ln",
+                     "Meridian",
+                     "ID",
+                     "83646",
+                     "US"
+                  ]
+               ]
+            ]
+         ]
+      }
+   ],
+   "notices": [
+      {
+         "title": "Terms of Use",
+         "description": [
+            "By submitting an RDAP query, you agree that you will use this data only for",
+            "lawful purposes and that, under no circumstances will you use this data to:",
+            "(1) allow, enable, or otherwise support the transmission by email, telephone,",
+            "or facsimile of mass, unsolicited, commercial advertising, or spam; or",
+            "(2) enable high volume, automated, or electronic processes that send queries,",
+            "data, or email to MarkMonitor (or its systems) or the domain name contacts (or",
+            "its systems).",
+            "MarkMonitor reserves the right to modify these terms at any time.",
+            "By submitting this query, you agree to abide by this policy.",
+            "MarkMonitor is the Global Leader in Online Brand Protection.",
+            "MarkMonitor Domain Management(TM)",
+            "MarkMonitor Brand Protection(TM)",
+            "MarkMonitor AntiCounterfeiting(TM)",
+            "MarkMonitor AntiPiracy(TM)",
+            "MarkMonitor AntiFraud(TM)",
+            "Professional and Managed Services",
+            "Visit MarkMonitor at https://www.markmonitor.com",
+            "Entity us at +1.8007459229",
+            "In Europe, at +44.02032062220"
+         ],
+         "links": [
+            {
+               "value": "https://www.markmonitor.com/legal/domain-management-terms-and-conditions",
+               "rel": "related",
+               "href": "https://www.markmonitor.com/legal/domain-management-terms-and-conditions",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "Status Codes",
+         "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp."
+         ],
+         "links": [
+            {
+               "value": "https://icann.org/epp",
+               "rel": "related",
+               "href": "https://icann.org/epp",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "RDDS Inaccuracy Complaint Form",
+         "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://www.icann.org/wicf."
+         ],
+         "links": [
+            {
+               "value": "https://www.icann.org/wicf",
+               "rel": "related",
+               "href": "https://www.icann.org/wicf",
+               "type": "text/html"
+            }
+         ]
+      }
+   ],
+   "links": [
+      {
+         "value": "https://rdap.markmonitor.com/rdap/domain/google.com",
+         "rel": "self",
+         "href": "https://rdap.markmonitor.com/rdap/domain/google.com",
+         "type": "application/rdap+json"
+      }
+   ],
+   "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_0",
+      "icann_rdap_response_profile_0"
+   ],
+   "port43": "whois.markmonitor.com"
+}
+# =========================================================================================================
+
+ Domain Information
+
+    Name: github.com
+    Registry Domain ID: 1264983250_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+    Nameservers:
+
+    ns-1283.awsdns-32.org
+
+    ns-1707.awsdns-21.co.uk
+
+    ns1.p16.dynect.net
+
+    ns2.p16.dynect.net
+
+    ns3.p16.dynect.net
+
+    ns-421.awsdns-52.com
+
+    ns4.p16.dynect.net
+
+    ns-520.awsdns-01.net
+
+Dates
+
+    Registry Expiration: 2020-10-09 18:20:50 UTC
+    Registrar Expiration: 2020-10-09 18:20:50 UTC
+    Created: 2007-10-09 18:20:50 UTC
+
+Contact Information
+Registrant:
+
+    Organization: GitHub, Inc.
+    Mailing Address: CA, US 
+
+Technical:
+
+    Mailing Address: CA, US 
+
+Administrative:
+
+    Mailing Address: CA, US 
+
+REDACTED FOR PRIVACY: Some of the data in this object has been removed.
+Registrar Information
+
+    Name: MarkMonitor Inc.
+    IANA ID: 292
+    Abuse Contact Email: abusecomplaints@markmonitor.com
+    Abuse Contact Phone: +1.2083895770 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/github.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.markmonitor.com/rdap/domain/GITHUB.COM
+    Last updated from Registrar RDAP DB: 2020-01-15 12:41:00 UTC
+
+Raw Registry RDAP Response
+
+{
+   "objectClassName": "domain",
+   "handle": "1264983250_DOMAIN_COM-VRSN",
+   "ldhName": "GITHUB.COM",
+   "links": [
+      {
+         "value": "https://rdap-core.vrsn.com/com/v1/domain/GITHUB.COM",
+         "rel": "self",
+         "href": "https://rdap-core.vrsn.com/com/v1/domain/GITHUB.COM",
+         "type": "application/rdap+json"
+      },
+      {
+         "value": "https://rdap.markmonitor.com/rdap/domain/GITHUB.COM",
+         "rel": "related",
+         "href": "https://rdap.markmonitor.com/rdap/domain/GITHUB.COM",
+         "type": "application/rdap+json"
+      }
+   ],
+   "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited"
+   ],
+   "entities": [
+      {
+         "objectClassName": "entity",
+         "handle": "292",
+         "roles": [
+            "registrar"
+         ],
+         "publicIds": [
+            {
+               "type": "IANA Registrar ID",
+               "identifier": "292"
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "fn",
+                  {},
+                  "text",
+                  "MarkMonitor Inc."
+               ]
+            ]
+         ],
+         "entities": [
+            {
+               "objectClassName": "entity",
+               "roles": [
+                  "abuse"
+               ],
+               "vcardArray": [
+                  "vcard",
+                  [
+                     [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                     ],
+                     [
+                        "tel",
+                        {
+                           "type": "voice"
+                        },
+                        "uri",
+                        "tel:+1.2083895740"
+                     ],
+                     [
+                        "email",
+                        {},
+                        "text",
+                        "abusecomplaints@markmonitor.com"
+                     ]
+                  ]
+               ]
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "eventAction": "registration",
+         "eventDate": "2007-10-09T18:20:50Z"
+      },
+      {
+         "eventAction": "expiration",
+         "eventDate": "2020-10-09T18:20:50Z"
+      },
+      {
+         "eventAction": "last update of RDAP database",
+         "eventDate": "2020-01-15T11:45:09Z"
+      }
+   ],
+   "secureDNS": {
+      "delegationSigned": false
+   },
+   "nameservers": [
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS-1283.AWSDNS-32.ORG"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS-1707.AWSDNS-21.CO.UK"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS-421.AWSDNS-52.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS-520.AWSDNS-01.NET"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS1.P16.DYNECT.NET"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS2.P16.DYNECT.NET"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS3.P16.DYNECT.NET"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS4.P16.DYNECT.NET"
+      }
+   ],
+   "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_0",
+      "icann_rdap_response_profile_0"
+   ],
+   "notices": [
+      {
+         "title": "Terms of Use",
+         "description": [
+            "Service subject to Terms of Use."
+         ],
+         "links": [
+            {
+               "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "Status Codes",
+         "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/epp",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "RDDS Inaccuracy Complaint Form",
+         "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/wicf",
+               "type": "text/html"
+            }
+         ]
+      }
+   ]
+}
+# =========================================================================================================
+ Domain Information
+
+    Name: FACEBOOK.COM
+    Registry Domain ID: 2320948_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+
+    serverDeleteProhibited
+
+    serverTransferProhibited
+
+    serverUpdateProhibited
+    Nameservers:
+
+    A.NS.FACEBOOK.COM
+
+    B.NS.FACEBOOK.COM
+
+    C.NS.FACEBOOK.COM
+
+    D.NS.FACEBOOK.COM
+
+Dates
+
+    Registry Expiration: 2028-03-30 04:00:00 UTC
+    Created: 1997-03-29 05:00:00 UTC
+
+Registrar Information
+
+    Name: RegistrarSafe, LLC
+    IANA ID: 3237
+    Abuse Contact Email: abusecomplaints@registrarsafe.com
+    Abuse Contact Phone: tel:+1-650-308-7004 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/facebook.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:46:11 UTC
+    Registrar Server URL: https://rdap.registrarsafe.com/domain/FACEBOOK.COM 
+
+Raw Registry RDAP Response
+
+{
+   "objectClassName": "domain",
+   "handle": "2320948_DOMAIN_COM-VRSN",
+   "ldhName": "FACEBOOK.COM",
+   "links": [
+      {
+         "value": "https://rdap-core.vrsn.com/com/v1/domain/FACEBOOK.COM",
+         "rel": "self",
+         "href": "https://rdap-core.vrsn.com/com/v1/domain/FACEBOOK.COM",
+         "type": "application/rdap+json"
+      },
+      {
+         "value": "https://rdap.registrarsafe.com/domain/FACEBOOK.COM",
+         "rel": "related",
+         "href": "https://rdap.registrarsafe.com/domain/FACEBOOK.COM",
+         "type": "application/rdap+json"
+      }
+   ],
+   "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited",
+      "server delete prohibited",
+      "server transfer prohibited",
+      "server update prohibited"
+   ],
+   "entities": [
+      {
+         "objectClassName": "entity",
+         "handle": "3237",
+         "roles": [
+            "registrar"
+         ],
+         "publicIds": [
+            {
+               "type": "IANA Registrar ID",
+               "identifier": "3237"
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "fn",
+                  {},
+                  "text",
+                  "RegistrarSafe, LLC"
+               ]
+            ]
+         ],
+         "entities": [
+            {
+               "objectClassName": "entity",
+               "roles": [
+                  "abuse"
+               ],
+               "vcardArray": [
+                  "vcard",
+                  [
+                     [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                     ],
+                     [
+                        "tel",
+                        {
+                           "type": "voice"
+                        },
+                        "uri",
+                        "tel:+1-650-308-7004"
+                     ],
+                     [
+                        "email",
+                        {},
+                        "text",
+                        "abusecomplaints@registrarsafe.com"
+                     ]
+                  ]
+               ]
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "eventAction": "registration",
+         "eventDate": "1997-03-29T05:00:00Z"
+      },
+      {
+         "eventAction": "expiration",
+         "eventDate": "2028-03-30T04:00:00Z"
+      },
+      {
+         "eventAction": "last update of RDAP database",
+         "eventDate": "2020-01-15T11:46:11Z"
+      }
+   ],
+   "secureDNS": {
+      "delegationSigned": false
+   },
+   "nameservers": [
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "A.NS.FACEBOOK.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "B.NS.FACEBOOK.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "C.NS.FACEBOOK.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "D.NS.FACEBOOK.COM"
+      }
+   ],
+   "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_0",
+      "icann_rdap_response_profile_0"
+   ],
+   "notices": [
+      {
+         "title": "Terms of Use",
+         "description": [
+            "Service subject to Terms of Use."
+         ],
+         "links": [
+            {
+               "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "Status Codes",
+         "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/epp",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "RDDS Inaccuracy Complaint Form",
+         "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/wicf",
+               "type": "text/html"
+            }
+         ]
+      }
+   ]
+}
+# =========================================================================================================
+ Domain Information
+
+    Name: wikipedia.com
+    Registry Domain ID: 51687032_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+    Nameservers:
+
+    ns0.wikimedia.org
+
+    ns1.wikimedia.org
+
+    ns2.wikimedia.org
+
+Dates
+
+    Registry Expiration: 2021-01-10 05:28:20 UTC
+    Registrar Expiration: 2021-01-09 08:00:00 UTC
+    Created: 2001-01-13 00:12:14 UTC
+
+Contact Information
+Registrant:
+
+    Organization: Wikimedia Foundation, Inc.
+    Mailing Address: CA, US 
+
+Technical:
+
+    Mailing Address: CA, US 
+
+Administrative:
+
+    Mailing Address: CA, US 
+
+REDACTED FOR PRIVACY: Some of the data in this object has been removed.
+Registrar Information
+
+    Name: MarkMonitor Inc.
+    IANA ID: 292
+    Abuse Contact Email: abusecomplaints@markmonitor.com
+    Abuse Contact Phone: +1.2083895770 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/wikipedia.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.markmonitor.com/rdap/domain/WIKIPEDIA.COM
+    Last updated from Registrar RDAP DB: 2020-01-15 12:47:22 UTC
+
+Raw Registry RDAP Response
+
+{
+   "objectClassName": "domain",
+   "handle": "51687032_DOMAIN_COM-VRSN",
+   "ldhName": "WIKIPEDIA.COM",
+   "links": [
+      {
+         "value": "https://rdap-core.vrsn.com/com/v1/domain/WIKIPEDIA.COM",
+         "rel": "self",
+         "href": "https://rdap-core.vrsn.com/com/v1/domain/WIKIPEDIA.COM",
+         "type": "application/rdap+json"
+      },
+      {
+         "value": "https://rdap.markmonitor.com/rdap/domain/WIKIPEDIA.COM",
+         "rel": "related",
+         "href": "https://rdap.markmonitor.com/rdap/domain/WIKIPEDIA.COM",
+         "type": "application/rdap+json"
+      }
+   ],
+   "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited"
+   ],
+   "entities": [
+      {
+         "objectClassName": "entity",
+         "handle": "292",
+         "roles": [
+            "registrar"
+         ],
+         "publicIds": [
+            {
+               "type": "IANA Registrar ID",
+               "identifier": "292"
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "fn",
+                  {},
+                  "text",
+                  "MarkMonitor Inc."
+               ]
+            ]
+         ],
+         "entities": [
+            {
+               "objectClassName": "entity",
+               "roles": [
+                  "abuse"
+               ],
+               "vcardArray": [
+                  "vcard",
+                  [
+                     [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                     ],
+                     [
+                        "tel",
+                        {
+                           "type": "voice"
+                        },
+                        "uri",
+                        "tel:+1.2083895740"
+                     ],
+                     [
+                        "email",
+                        {},
+                        "text",
+                        "abusecomplaints@markmonitor.com"
+                     ]
+                  ]
+               ]
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "eventAction": "registration",
+         "eventDate": "2001-01-13T00:12:14Z"
+      },
+      {
+         "eventAction": "expiration",
+         "eventDate": "2021-01-10T05:28:20Z"
+      },
+      {
+         "eventAction": "last update of RDAP database",
+         "eventDate": "2020-01-15T11:45:09Z"
+      }
+   ],
+   "secureDNS": {
+      "delegationSigned": false
+   },
+   "nameservers": [
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS0.WIKIMEDIA.ORG"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS1.WIKIMEDIA.ORG"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS2.WIKIMEDIA.ORG"
+      }
+   ],
+   "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_0",
+      "icann_rdap_response_profile_0"
+   ],
+   "notices": [
+      {
+         "title": "Terms of Use",
+         "description": [
+            "Service subject to Terms of Use."
+         ],
+         "links": [
+            {
+               "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "Status Codes",
+         "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/epp",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "RDDS Inaccuracy Complaint Form",
+         "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/wicf",
+               "type": "text/html"
+            }
+         ]
+      }
+   ]
+}
+# =========================================================================================================
+ Domain Information
+
+    Name: yahoo.com
+    Registry Domain ID: 3643624_DOMAIN_COM-VRSN
+    Domain Status:
+
+    clientDeleteProhibited
+
+    clientTransferProhibited
+
+    clientUpdateProhibited
+
+    serverDeleteProhibited
+
+    serverTransferProhibited
+
+    serverUpdateProhibited
+    Nameservers:
+
+    ns1.yahoo.com
+
+    ns2.yahoo.com
+
+    ns3.yahoo.com
+
+    ns4.yahoo.com
+
+    ns5.yahoo.com
+
+Dates
+
+    Registry Expiration: 2023-01-19 05:00:00 UTC
+    Registrar Expiration: 2023-01-19 05:00:00 UTC
+    Created: 1995-01-18 05:00:00 UTC
+
+Contact Information
+Registrant:
+
+    Name: Domain Admin
+    Organization: Oath Inc.
+    Email: domain-admin@oath.com
+    Tel: +1.4083493300
+    Mailing Address: 22000 AOL Way, Dulles, VA, 20166, US 
+
+Technical:
+
+    Name: Domain Admin
+    Organization: Oath Inc.
+    Email: domain-admin@oath.com
+    Tel: +1.4083493300
+    Mailing Address: 22000 AOL Way, Dulles, VA, 20166, US 
+
+Administrative:
+
+    Name: Domain Admin
+    Organization: Oath Inc.
+    Email: domain-admin@oath.com
+    Tel: +1.4083493300
+    Mailing Address: 22000 AOL Way, Dulles, VA, 20166, US 
+
+Registrar Information
+
+    Name: MarkMonitor Inc.
+    IANA ID: 292
+    Abuse Contact Email: abusecomplaints@markmonitor.com
+    Abuse Contact Phone: +1.2083895770 
+
+DNSSEC Information
+
+    Delegation Signed: Unsigned
+
+Authoritative Servers
+
+    Registry Server URL: https://rdap-core.vrsn.com/com/v1/domain/yahoo.com
+    Last updated from Registry RDAP DB: 2020-01-15 06:45:09 UTC
+    Registrar Server URL: https://rdap.markmonitor.com/rdap/domain/YAHOO.COM
+    Last updated from Registrar RDAP DB: 2020-01-15 12:50:34 UTC
+
+Raw Registry RDAP Response
+
+{
+   "objectClassName": "domain",
+   "handle": "3643624_DOMAIN_COM-VRSN",
+   "ldhName": "YAHOO.COM",
+   "links": [
+      {
+         "value": "https://rdap-core.vrsn.com/com/v1/domain/YAHOO.COM",
+         "rel": "self",
+         "href": "https://rdap-core.vrsn.com/com/v1/domain/YAHOO.COM",
+         "type": "application/rdap+json"
+      },
+      {
+         "value": "https://rdap.markmonitor.com/rdap/domain/YAHOO.COM",
+         "rel": "related",
+         "href": "https://rdap.markmonitor.com/rdap/domain/YAHOO.COM",
+         "type": "application/rdap+json"
+      }
+   ],
+   "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited",
+      "server delete prohibited",
+      "server transfer prohibited",
+      "server update prohibited"
+   ],
+   "entities": [
+      {
+         "objectClassName": "entity",
+         "handle": "292",
+         "roles": [
+            "registrar"
+         ],
+         "publicIds": [
+            {
+               "type": "IANA Registrar ID",
+               "identifier": "292"
+            }
+         ],
+         "vcardArray": [
+            "vcard",
+            [
+               [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+               ],
+               [
+                  "fn",
+                  {},
+                  "text",
+                  "MarkMonitor Inc."
+               ]
+            ]
+         ],
+         "entities": [
+            {
+               "objectClassName": "entity",
+               "roles": [
+                  "abuse"
+               ],
+               "vcardArray": [
+                  "vcard",
+                  [
+                     [
+                        "version",
+                        {},
+                        "text",
+                        "4.0"
+                     ],
+                     [
+                        "tel",
+                        {
+                           "type": "voice"
+                        },
+                        "uri",
+                        "tel:+1.2083895740"
+                     ],
+                     [
+                        "email",
+                        {},
+                        "text",
+                        "abusecomplaints@markmonitor.com"
+                     ]
+                  ]
+               ]
+            }
+         ]
+      }
+   ],
+   "events": [
+      {
+         "eventAction": "registration",
+         "eventDate": "1995-01-18T05:00:00Z"
+      },
+      {
+         "eventAction": "expiration",
+         "eventDate": "2023-01-19T05:00:00Z"
+      },
+      {
+         "eventAction": "last update of RDAP database",
+         "eventDate": "2020-01-15T11:45:09Z"
+      }
+   ],
+   "secureDNS": {
+      "delegationSigned": false
+   },
+   "nameservers": [
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS1.YAHOO.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS2.YAHOO.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS3.YAHOO.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS4.YAHOO.COM"
+      },
+      {
+         "objectClassName": "nameserver",
+         "ldhName": "NS5.YAHOO.COM"
+      }
+   ],
+   "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_0",
+      "icann_rdap_response_profile_0"
+   ],
+   "notices": [
+      {
+         "title": "Terms of Use",
+         "description": [
+            "Service subject to Terms of Use."
+         ],
+         "links": [
+            {
+               "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "Status Codes",
+         "description": [
+            "For more information on domain status codes, please visit https://icann.org/epp"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/epp",
+               "type": "text/html"
+            }
+         ]
+      },
+      {
+         "title": "RDDS Inaccuracy Complaint Form",
+         "description": [
+            "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+         ],
+         "links": [
+            {
+               "href": "https://icann.org/wicf",
+               "type": "text/html"
+            }
+         ]
+      }
+   ]
+}

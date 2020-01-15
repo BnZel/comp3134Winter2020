@@ -1,0 +1,13 @@
+# from local machine
+
+Pinging 165.227.47.36 with 32 bytes of data:
+Reply from 165.227.47.36: bytes=32 time=8ms TTL=58
+Reply from 165.227.47.36: bytes=32 time=4ms TTL=58
+Reply from 165.227.47.36: bytes=32 time=17ms TTL=58
+Reply from 165.227.47.36: bytes=32 time=14ms TTL=58
+
+Ping statistics for 165.227.47.36:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 17ms, Average = 10ms
+
