@@ -1,0 +1,15 @@
+tcpdump -r 0001.pcap^
+.ssh: Flags [.], ack 327778, win 2053, length 0
+23:07:43.965074 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 330698, win 2053, length 0
+23:07:43.965080 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 337998, win 2053, length 0
+23:07:43.965085 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 339458, win 2053, length 0
+23:07:43.965091 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 17586:17622, ack 339458, win 2053, length 36
+23:07:43.965103 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 342378, win 2053, length 0
+23:07:43.965179 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [.], ack 17622, win 1452, length 0
+23:07:44.006426 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 342970, win 2050, length 0
+23:07:44.155441 IP 67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.43956: 7013 NXDomain 0/1/1 (124)
+23:07:44.156820 IP lamp-s-1vcpu-1gb-tor1-01.43956 > 67.207.67.2.domain: 7013+ PTR? 219.121.253.92.in-addr.arpa. (45)
+23:07:44.157706 IP 67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.43956: 7013 NXDomain 0/1/0 (113)
+23:07:44.158876 IP lamp-s-1vcpu-1gb-tor1-01.48353 > 67.207.67.2.domain: 40865+ [1au] PTR? 37.192.249.110.in-addr.arpa. (56)
+tcpdump: pcap_loop: truncated dump file; tried to read 1242 captured bytes, only got 43
+

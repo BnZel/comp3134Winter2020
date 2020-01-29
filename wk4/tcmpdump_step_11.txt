@@ -1,0 +1,19 @@
+tcpdump -i eth0 port 22
+23:13:37.882618 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7857588:7857800, ack 3673, win 1452, length 212
+23:13:37.882709 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7857800:7858012, ack 3673, win 1452, length 212
+23:13:37.882796 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7858012:7858224, ack 3673, win 1452, length 212
+23:13:37.882877 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7858224:7858436, ack 3673, win 1452, length 212
+23:13:37.882960 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7858436:7858648, ack 3673, win 1452, length 212
+23:13:37.883046 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7858648:7858860, ack 3673, win 1452, length 212
+23:13:37.883139 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7813124, win 4006, length 0
+23:13:37.883152 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7815668, win 3996, length 0
+23:13:37.883156 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 3673:3745, ack 7815668, win 3996, length 72
+23:13:37.883159 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7821392, win 3974, length 0
+23:13:37.883163 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7823936, win 3964, length 0
+23:13:37.883166 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7824996, win 3960, length 0
+23:13:37.883289 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771: Flags [P.], seq 7858860:7859072, ack 3673, win 1452, length 212
+
+37619 packets captured
+38164 packets received by filter
+545 packets dropped by kernel
+

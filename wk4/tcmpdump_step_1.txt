@@ -1,0 +1,7 @@
+apt install tcpdump
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+tcpdump is already the newest version (4.9.3-0ubuntu0.18.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 69 not upgraded.
+

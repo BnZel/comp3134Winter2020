@@ -1,0 +1,14 @@
+#k..D.M
+        0x0260:  fc32                                     .2
+23:02:38.220326 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51685: Flags [P.], seq 15457384:15457860, ack 7849, win 320, length 476
+        0x0000:  fe00 0000 0101 ee86 20c7 638f 0800 4510  ..........c...E.
+        0x0010:  0204 ad0^C
+        0x0010:  0028 ed5e 4000 7906 f480 63e6 e702 a5e3  .(.^@.y...c.....
+        0x0020:  2f24 c9e5 0016 be90 8f92 b9ab 8109 5010  /$............P.
+        0x0030:  122a 2ae6 0000 0000 0000 0000            .**.........
+        0x0030:  122a 2ae6 0000 0000 0000 0000            .**.........
+
+5673 packets captured
+38099 packets received by filter
+32419 packets dropped by kernel
+

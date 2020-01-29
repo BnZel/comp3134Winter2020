@@ -1,0 +1,19 @@
+tcmpdump -i eth0 tcp
+.ssh: Flags [.], ack 13718640, win 1580, length 0
+23:12:28.448708 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13719080, win 1579, length 0
+23:12:28.456522 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13723700, win 1560, length 0
+23:12:28.456559 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13724360, win 1558, length 0
+23:12:28.456566 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13726560, win 1549, length 0
+23:12:28.462644 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13730960, win 1532, length 0
+23:12:28.462700 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13735832, win 1513, length 0
+23:12:28.462731 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13736712, win 1510, length 0
+23:12:28.462740 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13738692, win 1502, length 0
+23:12:28.462750 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13740892, win 1493, length 0
+23:12:28.462766 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13744192, win 1480, length 0
+23:12:28.468359 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13744828, win 1478, length 0
+23:12:28.590522 IP CPE9050cad414b3-CM9050cad414b0.cpe.net.cable.rogers.com.51771 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 6877:6985, ack 13744828, win 1478, length 108
+
+65196 packets captured
+66159 packets received by filter
+962 packets dropped by kernel
+
