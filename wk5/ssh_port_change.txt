@@ -1,0 +1,2 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# service sshd restart
+ssh root@165.227.47.36 -p 2222
