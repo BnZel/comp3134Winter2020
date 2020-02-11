@@ -14,16 +14,26 @@ Open source utility to allow **receiving and sending TCP/UDP/SSL (encrypted TCP)
 
 ## Getting started with Packet Sender
 
-## Sending TCP Packets 
+### Sending TCP Packets 
 Determine local machines network public IPv4 address (whatismyip.com)
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/packetsender_tcp_1.PNG)
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/wireshark_tcp_1.PNG)
 
-## Sending TCP Packets
+### Analyzing TCP Packets
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/analyzing_tcp_packets_1.PNG)
 
-## Analyzing TCP Packets
+### Sending UDP Packets
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/packetsender_udp_1.PNG)
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/wireshark_udp_1.PNG)
 
-## Deeper look at TCP Packets
+### Analyzing UDP Packets
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/packetsender_udp_3.PNG)
 
-## Simplified Firewall Rules: UFW
+### Deeper look at TCP Packets
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/wireshark_advanced_tcp_1.PNG)
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/wireshark_advanced_tcp_2.PNG)
+
+### Simplified Firewall Rules: UFW
 **Uncomplicated Fire Wall (UFW)**
 - Simplified firewall tool
 - Allow you to easily turn on/off basic services 
@@ -39,8 +49,11 @@ Determine local machines network public IPv4 address (whatismyip.com)
 ## Changing the SSH Port
 - Connect to remote server (DigitalOcean)
 - Open the file /etc/ssh/sshd_config (using the **sudo** prefix for admin privileges)
-- Within the file, replace **Port 22 to 2222**
-- Add port to server firewall (**ssh root@your-ip-address -p 2222**)
+- Within the file, replace **Port 22 to 2222** (REMEMBER TO CHANGE IT BACK AFTER)
+- Add port to server firewall 
 - Restart sshd service ( **service {service_name} {action}** )
+- Open a new GitBash window and login using (**ssh root@your-ip-address -p PORT-NUMBER**)
+
+![alt text](https://github.com/BnZel/comp3134Winter2020/blob/master/wk5/ssh_port_change_1.PNG)
 
 
