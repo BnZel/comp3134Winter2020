@@ -1,0 +1,3 @@
+no such file or directory on line 7
+error #: errno 2
+scandir() scan directory --> /var/www/html/

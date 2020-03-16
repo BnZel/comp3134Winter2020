@@ -1,0 +1,8 @@
+indexes of directory paths and files:
+Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+determining where root is and other files/folders located within it
