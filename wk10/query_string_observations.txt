@@ -1,0 +1,7 @@
+1. directly links to the definition of the word, in this case "blaze"
+
+2. url presents noresult?term=420blaze meaning there's no definition for the word "420blaze" 
+
+3. <script>alert(%27hello%27)</script> query is converted to a string, thus not running the javascript code and returning specific words that are known (alert and hello)
+
+4. same results as above, returns known words and ignores <script> tag

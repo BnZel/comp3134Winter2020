@@ -1,0 +1,5 @@
+curl -G https://www.dictionary.com/browse/curl
+curl -G https://www.dictionary.com/browse/curlxyz
+curl -G http://165.227.47.36/sending_info_to_app_1.php?q="helloworld"&s=Go
+curl -G http://165.227.47.36/sending_info_to_app_1.php?q=%3Cscript%3Edocument.write%28%27overwrite_everything%27%29%3C%2Fscript%3E&s=Go
+curl -G http://165.227.47.36/sending_info_to_app_2.php?q=%3Cscript%3Edocument.write%28%E2%80%98overwrite_everything%E2%80%99%29%3C%2Fscript%3E&s=Gohttp://165.227.47.36/sending_info_to_app_2.php?q=%3Cscript%3Edocument.write%28%E2%80%98overwrite_everything%E2%80%99%29%3C%2Fscript%3E&s=Go
